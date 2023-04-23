@@ -11,3 +11,7 @@
 npm install 
 # and 
 npm run dev
+
+
+# Deployed link
+https://ant-design-assignment.netlify.app/
