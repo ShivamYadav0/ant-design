@@ -1,0 +1,36 @@
+
+.home {
+  width: 100vw;
+  padding:0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+justify-content: center  ;
+  gap:10px;
+  
+}
+ 
+.col {
+ margin:6px;
+   width: min(300px,100vw);
+  padding: 8px 0,
+}
+.row {
+  
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen only (min-width:768px){
+  .home{
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width:550px){
+  .col{
+   width: 390px;
+  }
+}
